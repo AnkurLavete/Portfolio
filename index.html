@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Graphic design portfolio of Ankur Lavate — branding, social media creatives, advertising, brochures and Youtube Thumbnails."
+    />
+    <title>Ankur Lavate — Graphic Designer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <a class="wordmark" href="#home">ANKUR<span>®</span></a>
+      <nav>
+        <a href="#work">Work</a>
+        <a href="#about">About</a
+        ><a href="#contact">Contact</a>
+      </nav>
+      <a class="nav-cta" href="#contact" id="openContact">Let's talk <span>↗</span></a>
+    </header>
+
+
+    <!-- CONTACT FORM POPUP -->
+<div class="contact-overlay" id="contactOverlay">
+
+  <div class="contact-modal">
+
+    <button class="contact-close" id="contactClose">&times;</button>
+
+    <span class="contact-eyebrow">LET'S CONNECT</span>
+
+    <!-- <h2>Have a project<br>in mind<span>?</span></h2> -->
+
+    <div class="contact-heading">
+
+        <h2>
+          Have a project<br>
+          in mind<span>?</span>
+        </h2>
+
+        <img
+          src="assets/grave-domain-logo.jpeg"
+          alt="Grave Domain Graphic Designer"
+          class="contact-logo"
+        >
+
+</div>
+
+    <p class="contact-subtitle">
+      Tell me a little about what you're looking for.
+      I'll get back to you as soon as possible.
+    </p>
+
+    <form id="contactForm">
+
+      <div class="contact-field">
+        <label for="contactName">YOUR NAME</label>
+        <input type="text" id="contactName"
+          placeholder="Enter your name" required>
+      </div>
+
+      <div class="contact-field">
+        <label for="contactEmail">EMAIL ADDRESS</label>
+        <input type="email" id="contactEmail"
+          placeholder="Enter your email" required>
+      </div>
+
+      <div class="contact-field">
+        <label for="contactMessage">YOUR MESSAGE</label>
+        <textarea id="contactMessage" rows="4"
+          placeholder="Tell me about your project..."
+          required></textarea>
+      </div>
+
+      <button type="submit" class="contact-submit">
+        SEND MESSAGE <span>↗</span>
+      </button>
+
+    </form>
+
+  </div>
+</div>
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-top">
+          <span class="eyebrow"><i></i> INDEPENDENT GRAPHIC DESIGNER</span
+          ><span class="availability">PORTFOLIO / 2026</span>
+        </div>
+        <h1>Design that<br /><em>makes you</em> look.</h1>
+        <div class="hero-bottom">
+          <p>
+            I create visual identities, digital creatives and marketing designs
+            that help brands communicate with clarity and character.
+          </p>
+          <a class="round-link" href="#work" aria-label="Explore selected work"
+            >↓</a
+          ><span class="hero-note">BASED IN VADODARA, INDIA</span>
+        </div>
+        <div class="hero-rule"></div>
+        <div class="hero-tags">
+          <span>Logo</span><span>SOCIAL MEDIA</span><span>ADVERTISING</span
+          ><span>LAYOUT & PRINT</span>
+        </div>
+      </section>
+      <section class="work-section" id="work">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow">SELECTED PROJECTS</span>
+            <h2>A collection of<br /><em>things I've made.</em></h2>
+          </div>
+          <p>
+            Explore selected work across identity, campaigns, content and visual
+            communication.
+          </p>
+        </div>
+        <div class="filters" id="filters">
+          <button class="filter active" data-filter="All">
+            All work <b>17</b></button
+          ><button class="filter" data-filter="Logo">Logo</button
+          ><button class="filter" data-filter="Social Media">
+            Social media</button
+          ><button class="filter" data-filter="Advertising">Advertising</button
+          ><button class="filter" data-filter="Brochures">Brochures</button
+          ><button class="filter" data-filter="Youtube Thumbnails">Youtube Thumbnails</button
+          ><button class="filter" data-filter="Invitations">Invitations</button
+          ><button class="filter" data-filter="Other">Other</button>
+        </div>
+        <div class="grid" id="projectGrid"></div>
+        <p class="grid-foot" id="countLabel">17 PROJECTS</p>
+      </section>
+      <section class="about" id="about">
+        <div class="about-label">
+          <span class="eyebrow">A LITTLE ABOUT ME</span
+          ><span class="big-index">02</span>
+        </div>
+        <div class="about-copy">
+          <h2>Good design<br />is <em>good thinking.</em></h2>
+          <p>
+            I'm Ankur Lavate, a graphic designer interested in building clear,
+            memorable visuals for businesses and creators. My work spans brand
+            identity, social media design, advertising, brochures and gaming
+            content.
+          </p>
+          <div class="skills">
+            <span>Visual identity</span><span>Social media creatives</span
+            ><span>Marketing collateral</span><span>Print & layout</span
+            ><span>YouTube thumbnails</span>
+          </div>
+          <p class="small-note">
+            The projects shown here are selected design samples. Project
+            descriptions are brief portfolio summaries.
+          </p>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <span class="eyebrow">HAVE A PROJECT IN MIND?</span>
+        <h2>Let's make<br /><em>something good.</em></h2>
+        <p>
+          For design enquiries, collaborations or freelance opportunities, get
+          in touch.
+        </p>
+        <!-- <div class="contact-links">
+          <a href="mailto:lavateankur406@gmail.com" id="emailLink"
+            >Email me <span>↗</span></a
+          ><a
+            href="https://www.instagram.com/ankur_._lavate/"
+            target="_blank"
+            rel="noreferrer"
+            id="instagramLink"
+            >Instagram <span>↗</span></a
+          ><a
+            href="https://wa.me/918469896044"
+            target="_blank"
+            rel="noreferrer"
+            id="whatsappLink"
+            >WhatsApp <span>↗</span></a
+          >
+        </div> -->
+
+        <!-- CONTACT BUTTONS -->
+        <div class="contact-buttons">
+
+          <a href="mailto:lavateankur406@gmail.com" class="glow-btn">
+            <span>Email Me </span>
+          </a>
+
+          <a href="https://www.instagram.com/ankur_._lavate/" target="_blank" class="glow-btn">
+            <span>Instagram </span>
+          </a>
+
+          <a href="https://wa.me/918469896044" target="_blank" class="glow-btn">
+            <span>WhatsApp </span>
+          </a>
+
+        </div>
+
+
+
+        <p class="small-note">
+          
+        </p>
+      </section>
+    </main>
+    <footer>
+      <a class="wordmark" href="#home">ANKUR<span>®</span></a
+      ><span>GRAPHIC DESIGN PORTFOLIO · 2026</span
+      ><a href="#home">BACK TO TOP ↑</a>
+    </footer>
+    <div class="modal" id="modal" aria-hidden="true">
+      <div class="modal-backdrop" data-close></div>
+      <div
+        class="modal-panel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modalTitle"
+      >
+        <button class="modal-close" data-close aria-label="Close">×</button>
+        <div class="modal-image-wrap"><img id="modalImage" alt="" /></div>
+        <div class="modal-info">
+          <span class="eyebrow" id="modalCategory"></span>
+          <h3 id="modalTitle"></h3>
+          <p id="modalDescription"></p>
+          <span class="modal-type" id="modalType"></span>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
